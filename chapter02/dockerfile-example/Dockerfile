@@ -1,6 +1,6 @@
 FROM alpine:latest
 ARG VCS_REF
-LABEL org.label-schema.vcs-ref=$VCF_REF org.label-schema.vcs-url="https://github.com/microscaling/microscaling"
+LABEL org.label-schema.vcs-ref=$VCF_REF org.label-schema.vcs-url="https://github.com/stephen-phillips-i3q/mastering-docker/chapter02/dockerfile-example"
 LABEL maintainer="Russ McKendrick <russ@mckendrick.io>"
 LABEL description="This example Dockerfile installs NGINX."
 RUN apk add --update nginx && \
